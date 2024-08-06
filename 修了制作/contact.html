@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keyword" content="カフェ,抹茶,宇治抹茶,スイーツ,cafe">
+  <meta name="description" content="抹茶cafeのお問い合わせフォームです。気軽にお問い合わせください。">
+  <meta name="detection-format" content="telephone-no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>抹茶cafe</title>
+  <link rel="icon" href="./img/favicon (2).ico" sizes="any">
+  <link rel="apple-touch-icon" href="./修正必須img/180w/ apple-touch-icon.png">
+  <link rel="icon" href="./修正必須img/SVG/アートボード 1.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- 文字コード読み込み -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Shippori+Mincho&display=swap"
+    rel="stylesheet">
+  <!-- リセットcss読み込み -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+</head>
+
+<body id="contact">
+  <header id="header">
+    <div class="wrapper">
+      <div class="header-left">
+        <h1>
+          <a href="home.html">
+            <img src="./img/logo-1.png" alt="タイトルロゴ" class="title-logo">
+          </a>
+        </h1>
+      </div>
+      <div class="header-right">
+        <input type="checkbox" id="humbergur_btn">
+        <label for="humbergur_btn">
+          <span></span>
+          <p>menu</p>
+        </label>
+        <nav class="header-nav">
+          <ul class="navgation">
+            <li><a href="about.html">about</a></li>
+            <li><a href="menu.html">menu</a></li>
+            <li><a href="news.html">news</a></li>
+            <li><a href="access.html">access</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+          <address class="nav-address">
+            <p class="nav-address-ttl">Information</p>
+            <p>〒605-0074 京都府京都市東山区祇園町南側５５５</p>
+            <p>営業時間 : 9:00am to 10:00pm</p>
+            <p>Tel : 77-7777-7777</p>
+          </address>
+          <div class="sns-wrapper">
+            <ul>
+              <li><a href="https://www.facebook.com/?locale=ja_JP" class="sns-icon icon-facebook" target="_blank">
+                </a></li>
+              <li><a href="https://x.com/?lang=ja&mx=2" class="sns-icon icon-x" target="_blank">
+                </a></li>
+              <li><a href="https://www.instagram.com/" icon="sns-icon" class="sns-icon icon-instagram" target="_blank">
+                </a></li>
+              <li><a href="https://www.youtube.com/?app=desktop&hl=ja" class="sns-icon icon-youtube" target="_blank">
+                </a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <div class="breadcrumbs">
+      <a href="home.html">home</a>
+      <p>contact</p>
+  </div>
+    <div class="contact-ttl">
+      <h2>contact</h2>
+      <p>〜お問い合わせ〜</p>
+      <p class="text"> お問い合わせ、ご意見等は以下のフォームよりご記入お願いいたします。</p>
+    </div>
+    <form action="#" method="post" id="form">
+      <dl class="form-list">
+        <dt>お名前</dt>
+        <dd><input type="text" autofocus required placeholder="山田太郎"></dd>
+        <dt>メールアドレス</dt>
+        <dd><input type="email" required placeholder="ymadataro@gmail.com"></dd>
+        <dt>お問い合わせの種類</dt>
+        <dd><select name="sort" id="sort" required>
+          <option value="">---種類を選択して下さい---</option>
+          <option value="1">商品に関して</option>
+          <option value="2">会社に関して</option>
+          <option value="3">求人情報に関して</option>
+          <option value="4">その他</option>
+        </select></dd>
+        <dt>お問い合わせ内容</dt>
+        <dd><textarea name="" id="" cols="30" rows="10" required></textarea></dd>
+      </dl>
+      <div class="form-btn-wrapper">
+        <button type="submit">送信</button>
+        <button type="reset">取り消し</button>
+      </div>
+  </form>
+  </div>
+  <footer id="footer">
+    <div class="wrapper">
+      <div class="footer-content">
+        <div class="footer-content_left">
+          <div class="footer-logo">
+            <img src="./img/logo-1.png" alt="フッターロゴ">
+          </div>
+          <div class="sns-wrapper">
+            <ul>
+              <li><a href="https://www.facebook.com/?locale=ja_JP" class="sns-icon icon-facebook" target="_blank">
+                </a></li>
+              <li><a href="https://x.com/?lang=ja&mx=2" class="sns-icon icon-x" target="_blank">
+                </a></li>
+              <li><a href="https://www.instagram.com/" icon="sns-icon" class="sns-icon icon-instagram" target="_blank">
+                </a></li>
+              <li><a href="https://www.youtube.com/?app=desktop&hl=ja" class="sns-icon icon-youtube" target="_blank">
+                </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content_right">
+          <div class="site-map">
+            <ul>
+              <li><a href="about.html">about</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="access.html">Access</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p><small>&copy; 2024 Kazuki Seki</small></p>
+    </div>
+  </footer>
+</body>
+
+</html>
